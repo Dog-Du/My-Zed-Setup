@@ -1,0 +1,187 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "which_key": {
+    "enabled": true,
+    "delay_ms": 0
+  },
+  "relative_line_numbers": "enabled",
+  "inlay_hints": {
+    "enabled": true,
+    "show_value_hints": true
+  },
+  "semantic_tokens": "off",
+  "minimap": {
+    "show": "always"
+  },
+  "show_edit_predictions": true,
+  "diagnostics_max_severity": "all",
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "gutter": {
+    "line_numbers": true
+  },
+  "toolbar": {
+    "selections_menu": true
+  },
+  "auto_signature_help": true,
+  "git": {
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    },
+    "codex-acp": {
+      "type": "registry"
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "sort_by_path": true,
+    "tree_view": true,
+    "dock": "left"
+  },
+  "vim": {},
+  "ssh_connections": [
+    {
+      "host": "202.199.6.132",
+      "username": "DogDu",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/DogDu"
+          ]
+        },
+        {
+          "paths": [
+            "/home/DogDu/workspace/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/DogDu/workspace/mmdbs-openGauss/./"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "100.95.87.88",
+      "username": "dogdu",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/dogdu/workspace/helmdb"
+          ]
+        },
+        {
+          "paths": [
+            "/home/dogdu/workspace/myQQbot"
+          ]
+        },
+        {
+          "paths": [
+            "/home/dogdu/workspace/personalpool"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "219.216.65.129",
+      "username": "dogdu",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/dogdu/workspace/dogbot/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/dogdu/workspace/helmdb"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "219.216.64.166",
+      "args": [],
+      "projects": []
+    }
+  ],
+  "buffer_font_family": "Menlo",
+  "buffer_font_fallbacks": [
+    "Symbols Nerd Font Mono"
+  ],
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 300
+    }
+  },
+  "wsl_connections": [
+    {
+      "distro_name": "Ubuntu-22.04",
+      "user": null,
+      "projects": [
+        {
+          "paths": [
+            "/home/du"
+          ]
+        },
+        {
+          "paths": [
+            "/home/du/DayInSchool/rocksdb/./"
+          ]
+        }
+      ]
+    }
+  ],
+  "ui_font_family": ".ZedMono",
+  "terminal": {
+    "shell": {
+      "program": "powershell.exe"
+    },
+    "font_family": "CaskaydiaCove NFM",
+    "line_height": "standard"
+  },
+  "agent_buffer_font_size": 16.0,
+  "buffer_font_weight": 500.0,
+  "icon_theme": "Catppuccin Mocha",
+  "use_system_path_prompts": false,
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Macchiato"
+  }
+}

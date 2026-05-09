@@ -1,0 +1,3 @@
+[submodule "zed-setup"]
+	path = zed-setup
+	url = https://github.com/jellydn/zed-101-setup.git

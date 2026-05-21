@@ -78,6 +78,8 @@
   {
     "context": "Workspace",
     "bindings": {
+      "ctrl-shift-j": "agent::Toggle",
+      "ctrl-alt-j": "multi_workspace::ToggleWorkspaceSidebar",
       "ctrl-\\": "terminal_panel::ToggleFocus",
       // "shift shift": "file_finder::Toggle"
     },
@@ -209,6 +211,90 @@
           "\u0002"
         ]
       ]
+    }
+  },
+  {
+    "context": "vim_mode == visual",
+    "unbind": {
+      "shift-j": "vim::JoinLines"
+    }
+  },
+  {
+    "context": "vim_mode == helix_select",
+    "unbind": {
+      "shift-j": "vim::JoinLines"
+    }
+  },
+  {
+    "context": "(vim_mode == normal || vim_mode == helix_normal) && !menu",
+    "unbind": {
+      "shift-j": "vim::JoinLines"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-shift-j": "editor::JoinLines"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-alt-n": "workspace::NewWindow"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-n": "workspace::NewWindow"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "ctrl-shift-n": "agent::NewThread"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "unbind": {
+      "ctrl-n": "agent::NewThread"
+    }
+  },
+  {
+    "context": "AcpThread",
+    "bindings": {
+      "ctrl-shift-n": "agent::NewThread"
+    }
+  },
+  {
+    "context": "AcpThread",
+    "unbind": {
+      "ctrl-n": "agent::NewThread"
+    }
+  },
+  {
+    "context": "AgentPanel > Terminal",
+    "bindings": {
+      "ctrl-shift-n": "agent::NewThread"
+    }
+  },
+  {
+    "context": "AgentPanel > Terminal",
+    "unbind": {
+      "ctrl-n": "agent::NewThread"
+    }
+  },
+  {
+    "context": "ThreadsSidebar",
+    "bindings": {
+      "ctrl-shift-n": "agents_sidebar::NewThreadInGroup"
+    }
+  },
+  {
+    "context": "ThreadsSidebar",
+    "unbind": {
+      "ctrl-n": "agents_sidebar::NewThreadInGroup"
     }
   }
 ]

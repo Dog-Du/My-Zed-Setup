@@ -48,6 +48,7 @@
       "shift-l": "pane::ActivateNextItem",
       "space b d": "pane::CloseActiveItem",
       "space b o": "pane::CloseOtherItems",
+      "space b a": "pane::CloseAllItems",
       "space g g": "git_panel::ToggleFocus",
       "space g d": "git::Diff",
       "space g e": "editor::ExpandAllDiffHunks",
